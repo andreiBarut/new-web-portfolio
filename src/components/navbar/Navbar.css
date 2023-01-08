@@ -1,0 +1,49 @@
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 1rem;
+	font-family: "Ubuntu Mono", monospace;
+}
+
+.navbar-logo-container {
+	color: #ffd705;
+	font-size: 2.5rem;
+	cursor: pointer;
+}
+
+.navbar-menu-container {
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+	flex-direction: row;
+	color: white;
+	align-items: center;
+	font-size: 110%;
+}
+
+.navbar-menu-container div {
+	padding: 0.5rem 1rem;
+}
+
+.navbar-menu-container div:hover {
+	color: #ffd705;
+	transition: 0.2s;
+	cursor: pointer;
+	text-decoration: overline;
+}
+
+.navbar-menu-container span {
+	color: #ffd705;
+}
+
+.navbar-resume-container {
+	color: #ffd705;
+	border: 1px solid #ffd705;
+	padding: 0.5rem 3rem !important;
+}
+
+.logo-underscore-span {
+	color: #ffffff;
+	font-size: 100%;
+}
