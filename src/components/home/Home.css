@@ -1,0 +1,49 @@
+.home-container {
+	height: 350px;
+	width: 600px;
+	/* border: 2px solid #ffd705; */
+	margin: 4rem auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 1rem;
+	color: #c0c0c0;
+	font-size: 150%;
+}
+
+.home-container > h1 {
+	color: #ffd705;
+	font-family: "Ubuntu Mono", monospace;
+	margin: 0;
+}
+
+.home-container > h5 {
+	color: #ffd705;
+}
+
+.home-myname-span {
+	color: #ffffff;
+	font-size: 200%;
+	font-weight: bold;
+}
+
+.home-pipe-span {
+	color: #ffd705;
+}
+
+.home-resume-container {
+	border: 1px solid #ffd705;
+	display: flex;
+	justify-content: center;
+	width: fit-content;
+	margin: 0 auto;
+	padding: 0.5rem 3rem;
+	color: #ffd705;
+	cursor: pointer;
+}
+
+.home-resume-container:hover {
+	background-color: #37350a;
+	transition: 0.1s;
+	text-decoration: overline;
+}

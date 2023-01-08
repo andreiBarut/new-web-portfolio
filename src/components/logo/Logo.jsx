@@ -8,10 +8,10 @@ export default function Logo() {
 			return;
 		}
 		setDot("_");
-	}, 1000);
+	}, 500);
 	return (
 		<div>
-			>aeb<span className="logo-underscore-span">{dot}</span>
+			aeb:~$<span className="logo-underscore-span">{dot}</span>
 		</div>
 	);
 }
