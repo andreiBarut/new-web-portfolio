@@ -1,6 +1,6 @@
 export default function NavLinks() {
 	return (
-		<ul>
+		<ul className="NavLinks-Ul">
 			<li>
 				<a href="/">1. home</a>
 			</li>

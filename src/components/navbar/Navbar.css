@@ -1,22 +1,21 @@
-.logo-underscore-span {
-	color: #ffffff;
-	font-size: 100%;
-}
-
 .Navbar {
 	display: flex;
 	justify-content: space-between;
 }
 
-.NavigationNormal {
-	display: flex;
-	justify-content: center;
+.NavigationNormal ul {
 	flex-direction: row;
 }
 
-.NavigationNormal ul {
-	list-style-type: none;
+.NavigationMobile ul {
+	flex-direction: column;
+	/* display: none; */
+}
+
+.NavLinks-Ul {
 	display: flex;
+	justify-content: center;
+	list-style-type: none;
 }
 
 a {
