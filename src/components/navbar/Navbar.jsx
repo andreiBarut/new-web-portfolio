@@ -5,7 +5,7 @@ import NavigationNormal from "./NavigationNormal";
 export default function Navbar() {
 	return (
 		<div className="Navbar">
-			<div className="navbar-logo-container">
+			<div className="Navbar-logo-container">
 				<Logo />
 			</div>
 			<NavigationNormal />

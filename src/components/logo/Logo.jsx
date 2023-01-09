@@ -18,7 +18,7 @@ export default function Logo() {
 		}
 	}, 1000);
 	return (
-		<div>
+		<div className="Navbar-Logo">
 			aeb:~$<span className={className}>_</span>
 		</div>
 	);
