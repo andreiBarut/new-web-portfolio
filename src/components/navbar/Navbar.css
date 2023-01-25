@@ -3,7 +3,11 @@
 .Navbar-container {
 	display: flex;
 	justify-content: space-between;
-	padding: 0.5rem;
+	/* padding: 0.5rem; */
+	background-image: url(../../assets/images/mobile-nav-bg.png);
+	background-repeat: repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 .Navbar-container .NavLinks-Ul {
@@ -28,7 +32,8 @@
 
 .Navbar-container .Navbar-DesktopNavbar {
 	position: absolute;
-	right: 2%; /* had to do  this because otherwise it would treat the hidden mobile nav as a flex element, it would not justify as space between*/
+	right: 2%;
+	/* had to do  this because otherwise it would treat the hidden mobile nav as a flex element, it would not justify as space between*/
 }
 
 .Navbar-container .Navbar-DesktopNavbar a {
@@ -46,6 +51,12 @@
 
 .Navbar-container .Navbar-MobileNavbar {
 	display: none;
+	position: absolute;
+}
+
+.Navbar-container .Navbar-MobileNavbar .NavLinks-Ul {
+	/* transform: translateX(200%); */
+	transition: 0.8s;
 }
 
 /*^ MEDIA QUERY */
@@ -60,7 +71,7 @@
 		/* align-items: center; */
 		gap: 20px;
 		position: absolute;
-		right: 2%;
+		right: 0%;
 	}
 
 	.Navbar-container .Navbar-MobileNavbar a {
@@ -75,8 +86,24 @@
 
 	.Navbar-container .Navbar-MobileNavbar .NavLinks-Ul {
 		flex-direction: column;
+		/* background-image: url(../../assets/images/mobile-nav-bg.png);
+		background-repeat: contain;
+		background-position: center;
+		background-size: cover; */
 		background-color: #1b1b1b;
-		padding: 2rem;
+		/* padding: 2vh 20vw; */
+		border-radius: 10px;
+		/* opacity: 0.8; */
+		/* margin-top: 8.5vh; */
+		/* margin-left: 0; */
+		align-items: center;
+		align-content: center;
+		/* transform: translateX(0); */
+		width: 100vw;
+		height: 100vh;
+		/* margin-right: 0px; */
+		font-size: 150%;
+		margin-top: 0;
 	}
 }
 
@@ -86,4 +113,6 @@
 	font-size: 50px;
 	color: #ffd705;
 	cursor: pointer;
+	position: absolute;
+	right: 0;
 }

@@ -1,17 +1,24 @@
 import NavLinks from "./NavLinks";
-import { MdMenuOpen } from "react-icons/md";
+import { MdMenuOpen, MdTranslate } from "react-icons/md";
 import { VscCloseAll } from "react-icons/vsc";
 import { useState } from "react";
+import { useEffect } from "react";
+
 // import { useState } from "react";
 
 export default function MobileNavbar() {
-	const [hamburgerOpen, setHamburgerOpen] = useState("none");
+	useEffect(() => {
+		console.log("rerendered");
+	});
 
+	const [hamburgerOpen, setHamburgerOpen] = useState("translateY(-200%)");
+
+	// const [translateEcs, setTranslateEcs] = useState("0");
 	function toggleHamburger() {
-		if (hamburgerOpen === "none") {
-			setHamburgerOpen("flex");
+		if (hamburgerOpen === "translateY(-200%)") {
+			setHamburgerOpen("translateY(0)");
 		} else {
-			setHamburgerOpen("none");
+			setHamburgerOpen("translateY(-200%)");
 		}
 	}
 
@@ -26,7 +33,7 @@ export default function MobileNavbar() {
 	return (
 		<nav className="Navbar-MobileNavbar">
 			{hamburgerOpen && <NavLinks hamburgerBool={`${hamburgerOpen}`} />}
-			{hamburgerOpen === "flex" ? iconClosed : iconOpen}
+			{hamburgerOpen === "translateY(0)" ? iconClosed : iconOpen}
 		</nav>
 	);
 }

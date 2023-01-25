@@ -1,3 +1,4 @@
+import { FadeIn } from "react-slide-fade-in";
 import { useState } from "react";
 import "./Logo.css";
 export default function Logo() {
@@ -18,8 +19,15 @@ export default function Logo() {
 		}
 	}, 1000);
 	return (
-		<div className="Navbar-Logo">
-			aeb:~$<span className={className}>_</span>
-		</div>
+		<FadeIn
+			from="left"
+			positionOffset={200}
+			triggerOffset={200}
+			delayInMilliseconds={100}
+		>
+			<div className="Navbar-Logo">
+				aeb:~$<span className={className}>_</span>
+			</div>
+		</FadeIn>
 	);
 }
