@@ -1,6 +1,6 @@
-export default function NavLinks() {
+export default function NavLinks(props) {
 	return (
-		<ul className="NavLinks-Ul">
+		<ul className="NavLinks-Ul" style={{ display: props.hamburgerBool }}>
 			<li>
 				<a href="/">1. home</a>
 			</li>

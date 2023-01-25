@@ -1,15 +1,16 @@
 import Logo from "../logo/Logo";
 import "./Navbar.css";
-import NavigationMobile from "./NavigationMobile";
-import NavigationNormal from "./NavigationNormal";
+import DesktopNavbar from "./DesktopNavbar";
+import MobileNavbar from "./MobileNavbar";
+
 export default function Navbar() {
 	return (
-		<div className="Navbar">
+		<div className="Navbar-container">
 			<div className="Navbar-logo-container">
 				<Logo />
 			</div>
-			<NavigationNormal />
-			<NavigationMobile />
+			<DesktopNavbar />
+			<MobileNavbar />
 		</div>
 	);
 }

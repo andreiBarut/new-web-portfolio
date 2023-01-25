@@ -1,29 +1,89 @@
-.Navbar {
+/*^ NAVBAR */
+
+.Navbar-container {
 	display: flex;
 	justify-content: space-between;
+	padding: 0.5rem;
 }
 
-.NavigationNormal ul {
-	flex-direction: row;
-}
-
-.NavigationMobile ul {
-	flex-direction: column;
-	/* display: none; */
-}
-
-.NavLinks-Ul {
+.Navbar-container .NavLinks-Ul {
 	display: flex;
 	justify-content: center;
 	list-style-type: none;
+	gap: 20px;
 }
 
-a {
+/* .Navbar-container .NavLinks-Ul li a {
+	color: white;
 	text-decoration: none;
-	color: #ffffff;
 }
 
-a:hover {
-	text-decoration: overline;
+.Navbar-container .NavLinks-Ul li a:hover {
 	color: #ffd705;
+	transition: 0.3s;
+	text-decoration: overline;
+} */
+
+/*^ DESKTOP NAVBAR */
+
+.Navbar-container .Navbar-DesktopNavbar {
+	position: absolute;
+	right: 2%; /* had to do  this because otherwise it would treat the hidden mobile nav as a flex element, it would not justify as space between*/
+}
+
+.Navbar-container .Navbar-DesktopNavbar a {
+	color: white;
+	text-decoration: none;
+}
+
+.Navbar-container .Navbar-DesktopNavbar a:hover {
+	color: #ffd705;
+	text-decoration: overline;
+	transition: 0.3s;
+}
+
+/*^ MOBILE NAVBAR */
+
+.Navbar-container .Navbar-MobileNavbar {
+	display: none;
+}
+
+/*^ MEDIA QUERY */
+
+@media (max-width: 990px) {
+	.Navbar-container .Navbar-DesktopNavbar {
+		display: none;
+	}
+
+	.Navbar-container .Navbar-MobileNavbar {
+		display: flex;
+		/* align-items: center; */
+		gap: 20px;
+		position: absolute;
+		right: 2%;
+	}
+
+	.Navbar-container .Navbar-MobileNavbar a {
+		text-decoration: none;
+		color: white;
+	}
+
+	.Navbar-container .Navbar-MobileNavbar a:hover {
+		text-decoration: overline;
+		color: #ffd705;
+	}
+
+	.Navbar-container .Navbar-MobileNavbar .NavLinks-Ul {
+		flex-direction: column;
+		background-color: #1b1b1b;
+		padding: 2rem;
+	}
+}
+
+/*^ HAMBURGER */
+
+.navbar-hamburger-open {
+	font-size: 50px;
+	color: #ffd705;
+	cursor: pointer;
 }
