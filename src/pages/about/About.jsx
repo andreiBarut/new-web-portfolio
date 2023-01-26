@@ -1,4 +1,4 @@
-import "../about/About.css";
+import "./About.css";
 import { AiFillHtml5 } from "react-icons/ai";
 import { FiFigma } from "react-icons/fi";
 import {
@@ -18,6 +18,7 @@ export default function About() {
 				<h1>About me</h1>
 				<img src={portrait} alt="myself" className="about-portrait" />
 			</article>
+			<hr></hr>
 			<article>
 				<h1>Skills</h1>
 				<ul class="about-skills-list">
@@ -55,7 +56,6 @@ export default function About() {
 					<li>Figma</li>
 				</ul>
 			</article>
-			<hr></hr>
 			<article>
 				<p>
 					I was in university when I attended a web design class, where I learned to

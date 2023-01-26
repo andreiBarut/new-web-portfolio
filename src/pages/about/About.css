@@ -34,13 +34,20 @@
 
 .about-container .about-skills-list {
 	list-style-type: none;
-	color: white;
-	font-size: larger;
+
 	display: grid;
 	grid-template-columns: repeat(4, auto);
 	gap: 2vh;
 }
 
-.about-container ul {
-	color: red;
+.about-container .about-skills-list li {
+	color: white;
+	font-size: larger;
+}
+
+.about-container .about-skills-list li:hover {
+	transform: scale(1.5);
+	transition: 0.3s;
+	color: #ffd705;
+	cursor: crosshair;
 }
