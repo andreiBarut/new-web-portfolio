@@ -11,7 +11,7 @@ export default function Home() {
 		setPipe("|");
 	}, 500);
 	return (
-		<div className="home-container">
+		<section className="home-container">
 			<h1>hi, my name is</h1>
 			<p>
 				<span className="home-myname-span">Andrei Barut</span>
@@ -24,6 +24,6 @@ export default function Home() {
 				<span className="home-pipe-span"> |</span>
 			</p>
 			<div className="home-resume-container">resume</div>
-		</div>
+		</section>
 	);
 }

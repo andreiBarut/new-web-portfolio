@@ -1,0 +1,46 @@
+.about-container {
+	background-color: #1b1b1b;
+	/* height: fit-content; */
+	font-family: "Ubuntu Mono", monospace;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 2vh;
+	padding: 10vh 30vw;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.about-container h1 {
+	color: #ffd705;
+	font-family: "Ubuntu Mono", monospace;
+	text-align: center;
+	margin: 2vh;
+}
+
+.about-container p {
+	color: #c0c0c0;
+	/* padding: 0 20vh; */
+	/* border: 2px solid red; */
+	width: fit-content;
+	margin: 2vh 0;
+}
+
+.about-container .about-portrait {
+	width: 250px;
+	border-radius: 125px;
+}
+
+.about-container .about-skills-list {
+	list-style-type: none;
+	color: white;
+	font-size: larger;
+	display: grid;
+	grid-template-columns: repeat(4, auto);
+	gap: 2vh;
+}
+
+.about-container ul {
+	color: red;
+}
