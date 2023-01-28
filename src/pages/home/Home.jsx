@@ -4,18 +4,10 @@ import { AiFillLinkedin } from "react-icons/ai";
 
 export default function Home() {
 	const [pipe, setPipe] = useState("|");
-	const stars = [
-		"one",
-		"two",
-		"three",
-		"four",
-		"five",
-		"six",
-		"seven",
-		"eight",
-		"nine",
-		"ten",
-	];
+	const squares = ["squareOne", "squareTwo", "squareThree", "squareFour"];
+	const [squareInd, setSquareInd] = useState(0);
+	const [currentSquare, setCurrentSquare] = useState(squares[squareInd]);
+
 	setTimeout(() => {
 		if (pipe.includes("|")) {
 			setPipe(" ");
@@ -23,9 +15,18 @@ export default function Home() {
 		}
 		setPipe("|");
 	}, 500);
+
+	function load() {}
+
 	return (
 		<>
 			<section className="home-container">
+				{/* I WANT TO MAKE A LOADING BAR HERE */}
+				<div className="home-loadingBar-container">
+					{squares.map((square) => (
+						<div key={square} className="square" id={square}></div>
+					))}
+				</div>
 				<h1>hi, my name is</h1>
 				<p>
 					<span className="home-myname-span">Andrei Barut</span>
@@ -45,6 +46,7 @@ export default function Home() {
 				<a
 					href="https://www.linkedin.com/in/andrei-emilian-b%C4%83ru%C8%9B-254387237"
 					target={"_blank"}
+					rel="noreferrer"
 				>
 					<AiFillLinkedin />
 				</a>

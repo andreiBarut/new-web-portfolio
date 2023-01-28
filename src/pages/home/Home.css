@@ -10,16 +10,9 @@
 	color: #c0c0c0;
 	/* border: 10px solid red; */
 	background-color: #37350a;
-}
-
-@keyframes home-glitch {
-	from {
-		background-size: 8cm;
-	}
-
-	to {
-		background-size: 10cm;
-	}
+	background-image: url(../../assets/images/home-bg.png);
+	animation-name: home-glitch;
+	background-size: 40vw;
 }
 
 .home-container > h1 {
@@ -122,7 +115,7 @@
 
 .circle a:hover {
 	color: white;
-	transition: 0.3s;
+	transition: 0.4s;
 }
 
 @media (max-width: 990px) {
@@ -133,4 +126,20 @@
 	.line {
 		display: none;
 	}
+}
+
+.home-loadingBar-container {
+	display: flex;
+	margin: 0;
+	gap: 1vw;
+}
+
+.square {
+	border: 2px solid #ffd705;
+	height: 20px;
+	width: 20px;
+}
+
+.home-loadingBar-container .square:first-child {
+	background-color: #ffd705;
 }
