@@ -28,8 +28,25 @@
 }
 
 .about-container .about-portrait {
-	width: 250px;
-	border-radius: 125px;
+	width: 15vw;
+	border-radius: 15vw;
+	cursor: pointer;
+	/* border: 5px groove #ffd705; */
+	filter: grayscale(0);
+	transition: 0.3s;
+}
+
+@media (max-width: 990px) {
+	.about-container .about-portrait {
+		width: 30vw;
+		border-radius: 15vw;
+	}
+}
+
+.about-container .about-portrait:hover {
+	transition: 0.1s;
+	border: 0;
+	filter: grayscale(100%);
 }
 
 .about-container .about-skills-list {

@@ -1,0 +1,61 @@
+.projects-container {
+	/* background-color: ; */
+	background-image: url(../../assets/images/glitch.png);
+	background-repeat: repeat;
+	background-position: 0cm;
+	background-size: contain;
+	/* height: fit-content; */
+	font-family: "Ubuntu Mono", monospace;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 2vh;
+	padding: 10vh 30vw;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	/* border: 2px solid red; */
+	animation-name: background-animation;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+
+@keyframes background-animation {
+	from {
+		background-position: 0cm;
+		/* background-size: 4cm; */
+	}
+	to {
+		background-position: 20cm;
+		/* background-size: 7cm; */
+	}
+}
+
+.projects-container h2 {
+	color: #ffd705;
+}
+
+.projects-container ul {
+	list-style-type: decimal-leading-zero;
+}
+
+.projects-container ul li {
+	margin: 1vh 0;
+	color: #ffd705;
+}
+
+.projects-container ul li a {
+	text-decoration: none;
+	color: #ffd705;
+}
+
+.projects-container ul li a:hover {
+	text-decoration: overline;
+	/* transition: 0.3s; */
+}
+
+.projects-container ul li:hover {
+	transform: scale(1.2);
+	transition: 0.3s;
+}
