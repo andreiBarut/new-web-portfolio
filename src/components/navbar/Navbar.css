@@ -11,6 +11,22 @@
 	position: fixed;
 	width: 100vw;
 	z-index: 1;
+	animation-name: nav-animation;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes nav-animation {
+	from {
+		background-size: 10cm;
+		background-position: 0cm;
+	}
+	to {
+		background-size: 20cm;
+		background-position: 5cm;
+	}
 }
 
 .Navbar-container .NavLinks-Ul {

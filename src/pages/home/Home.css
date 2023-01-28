@@ -99,10 +99,17 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	/* text-align: center; */
+	background-color: #ffd705;
+}
+
+.circle a {
 	font-size: 180%;
 	color: #1b1b1b;
 	cursor: pointer;
 	background-color: #ffd705;
+	text-decoration: none;
+	display: flex;
 }
 
 .circle:hover {
@@ -111,6 +118,11 @@
 	color: white;
 	background-color: #ffd705;
 	text-decoration: overline;
+}
+
+.circle a:hover {
+	color: white;
+	transition: 0.3s;
 }
 
 @media (max-width: 990px) {

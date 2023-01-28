@@ -42,7 +42,12 @@ export default function Home() {
 			</section>
 			<div className="line"></div>
 			<div className="circle">
-				<AiFillLinkedin />
+				<a
+					href="https://www.linkedin.com/in/andrei-emilian-b%C4%83ru%C8%9B-254387237"
+					target={"_blank"}
+				>
+					<AiFillLinkedin />
+				</a>
 			</div>
 		</>
 	);
