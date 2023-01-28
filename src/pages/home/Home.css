@@ -11,8 +11,22 @@
 	/* border: 10px solid red; */
 	background-color: #37350a;
 	background-image: url(../../assets/images/home-bg.png);
-	animation-name: home-glitch;
-	background-size: 40vw;
+	/* animation-name: home-glitch; */
+	background-size: contain;
+	animation-name: home-animation;
+	animation-duration: 60s;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes home-animation {
+	from {
+		background-position: 0cm;
+	}
+	to {
+		background-position: 20cm;
+	}
 }
 
 .home-container > h1 {
