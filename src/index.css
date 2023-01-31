@@ -11,6 +11,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-color: #37350a;
+	cursor: url("assets/images/cursor.png"), auto;
 }
 
 code {

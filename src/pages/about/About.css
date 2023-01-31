@@ -6,7 +6,7 @@
 	flex-direction: column;
 	flex-wrap: wrap;
 	gap: 2vh;
-	padding: 10vh 30vw;
+	padding: 10vh 15vh;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
@@ -25,7 +25,7 @@
 	color: #c0c0c0;
 	/* padding: 0 20vh; */
 	/* border: 2px solid red; */
-	width: fit-content;
+	width: 45vw;
 	margin: 2vh 0;
 }
 

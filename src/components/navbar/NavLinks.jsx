@@ -9,31 +9,31 @@ export default function NavLinks(props) {
 				// }}
 			>
 				<li>
-					<a href="#home" onClick={props.toggleHamburger}>
+					<a href="#home" onClick={props.toggleHamburger} className="link">
 						1. home
 					</a>
 				</li>
 
 				<li>
-					<a href="#about" onClick={props.toggleHamburger}>
+					<a href="#about" onClick={props.toggleHamburger} className="link">
 						2. about
 					</a>
 				</li>
 
 				<li>
-					<a href="#projects" onClick={props.toggleHamburger}>
+					<a href="#projects" onClick={props.toggleHamburger} className="link">
 						3. projects
 					</a>
 				</li>
 
 				<li>
-					<a href="/" onClick={props.toggleHamburger}>
+					<a href="/" onClick={props.toggleHamburger} className="link">
 						4. contact
 					</a>
 				</li>
 
 				<li>
-					<a href="/" onClick={props.toggleHamburger}>
+					<a href="/" onClick={props.toggleHamburger} className="link">
 						resume
 					</a>
 				</li>

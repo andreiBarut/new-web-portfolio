@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Home.css";
+
 import { AiFillLinkedin } from "react-icons/ai";
 import { Zoom } from "react-awesome-reveal";
 

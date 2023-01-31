@@ -1,4 +1,5 @@
 import "./Projects.css";
+import { AiFillCaretDown } from "react-icons/ai";
 import {
 	Accordion,
 	AccordionItem,
@@ -6,6 +7,7 @@ import {
 	AccordionItemButton,
 	AccordionItemPanel,
 } from "react-accessible-accordion";
+
 // import "react-accessible-accordion/dist/fancy-example.css";
 import grandma from "../../assets/images/grandmasRecipes.png";
 export default function Projects() {
@@ -17,7 +19,10 @@ export default function Projects() {
 					<AccordionItem>
 						<AccordionItemHeading>
 							<AccordionItemButton className="projects-accordion-button">
-								<li>Grandma's Recipes</li>
+								<li>
+									Grandma's Recipes
+									<AiFillCaretDown></AiFillCaretDown>
+								</li>
 							</AccordionItemButton>
 						</AccordionItemHeading>
 						<AccordionItemPanel className="accordion-panel">
@@ -38,7 +43,10 @@ export default function Projects() {
 					<AccordionItem>
 						<AccordionItemHeading>
 							<AccordionItemButton className="projects-accordion-button">
-								<li>Currency Exchange App</li>
+								<li className="link">
+									Currency Exchange App
+									<AiFillCaretDown></AiFillCaretDown>
+								</li>
 							</AccordionItemButton>
 						</AccordionItemHeading>
 						<AccordionItemPanel>
@@ -48,7 +56,10 @@ export default function Projects() {
 					<AccordionItem>
 						<AccordionItemHeading>
 							<AccordionItemButton className="projects-accordion-button">
-								<li>Hangman with Cars</li>
+								<li>
+									Hangman with Cars
+									<AiFillCaretDown></AiFillCaretDown>
+								</li>
 							</AccordionItemButton>
 						</AccordionItemHeading>
 						<AccordionItemPanel>
@@ -58,7 +69,10 @@ export default function Projects() {
 					<AccordionItem>
 						<AccordionItemHeading>
 							<AccordionItemButton className="projects-accordion-button">
-								<li>Custom Digital Watch</li>
+								<li>
+									Custom Digital Watch
+									<AiFillCaretDown></AiFillCaretDown>
+								</li>
 							</AccordionItemButton>
 						</AccordionItemHeading>
 						<AccordionItemPanel>
@@ -68,7 +82,10 @@ export default function Projects() {
 					<AccordionItem>
 						<AccordionItemHeading>
 							<AccordionItemButton className="projects-accordion-button">
-								<li>Custom Voting Polls</li>
+								<li>
+									Custom Voting Polls
+									<AiFillCaretDown></AiFillCaretDown>
+								</li>
 							</AccordionItemButton>
 						</AccordionItemHeading>
 						<AccordionItemPanel>
@@ -78,7 +95,10 @@ export default function Projects() {
 					<AccordionItem>
 						<AccordionItemHeading>
 							<AccordionItemButton className="projects-accordion-button">
-								<li>This React Portfolio</li>
+								<li>
+									This React Portfolio
+									<AiFillCaretDown></AiFillCaretDown>
+								</li>
 							</AccordionItemButton>
 						</AccordionItemHeading>
 						<AccordionItemPanel className="projects-accordion-panel">
