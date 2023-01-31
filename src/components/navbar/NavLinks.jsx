@@ -3,10 +3,10 @@ export default function NavLinks(props) {
 		<>
 			<ul
 				className="NavLinks-Ul"
-				style={{
-					transform: props.hamburgerBool,
-					display: props.displayBool,
-				}}
+				// style={{
+				// 	transform: props.hamburgerBool,
+				// 	display: props.displayBool,
+				// }}
 			>
 				<li>
 					<a href="/">1. home</a>

@@ -10,30 +10,45 @@ export default function MobileNavbar() {
 	useEffect(() => {
 		console.log("rerendered");
 	});
-
-	const [hamburgerOpen, setHamburgerOpen] = useState("translateY(-200%)");
-
-	// const [translateEcs, setTranslateEcs] = useState("0");
+	const [hamburgerOpen, setHamburgerOpen] = useState("0");
+	const [skew, setSkew] = useState("skew(0deg)");
+	// // const [translateEcs, setTranslateEcs] = useState("0");
 	function toggleHamburger() {
-		if (hamburgerOpen === "translateY(-200%)") {
-			setHamburgerOpen("translateY(0)");
+		if (hamburgerOpen === "100%") {
+			setHamburgerOpen("0");
+			setSkew("skew(180deg)");
 		} else {
-			setHamburgerOpen("translateY(-200%)");
+			setHamburgerOpen("100%");
+			setSkew("skew(0deg)");
 		}
 	}
-
 	const iconOpen = (
-		<MdMenuOpen className="navbar-hamburger-open" onClick={toggleHamburger} />
+		<MdMenuOpen
+			className="navbar-hamburger-open"
+			onClick={toggleHamburger}
+			style={{ transform: skew }}
+		/>
 	);
-
 	const iconClosed = (
-		<VscCloseAll className="navbar-hamburger-open" onClick={toggleHamburger} />
+		<VscCloseAll
+			className="navbar-hamburger-closed"
+			onClick={toggleHamburger}
+			style={{ transform: skew }}
+		/>
 	);
 
 	return (
-		<nav className="Navbar-MobileNavbar">
-			{hamburgerOpen && <NavLinks hamburgerBool={`${hamburgerOpen}`} />}
-			{hamburgerOpen === "translateY(0)" ? iconClosed : iconOpen}
-		</nav>
+		<>
+			{iconOpen}
+			<div
+				className="Navbar-overlay"
+				style={{ width: hamburgerOpen, opacity: hamburgerOpen }}
+			>
+				<div className="Navbar-overlay-content">
+					<NavLinks />
+				</div>
+				{iconClosed}
+			</div>
+		</>
 	);
 }

@@ -70,13 +70,14 @@
 
 .projects-container p {
 	color: #c0c0c0;
-	background-color: #1b1b1b;
+	/* background-color: #1b1b1b; */
 	padding: 2vh;
 	border-radius: 10px;
 }
 
 .accordion-panel {
-	background-color: #1b1b1b;
+	background-color: #37350a;
+	border-radius: 10px;
 	opacity: 0.9;
 	padding: 5vh;
 }
