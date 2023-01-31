@@ -21,7 +21,7 @@ export default function Home() {
 
 	return (
 		<>
-			<section className="home-container">
+			<section className="home-container" id="home">
 				{/* I WANT TO MAKE A LOADING BAR HERE */}
 				<div className="home-loadingBar-container">
 					{squares.map((square) => (

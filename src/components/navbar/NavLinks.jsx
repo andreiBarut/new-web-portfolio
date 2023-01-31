@@ -9,27 +9,33 @@ export default function NavLinks(props) {
 				// }}
 			>
 				<li>
-					<a href="/">1. home</a>
+					<a href="#home" onClick={props.toggleHamburger}>
+						1. home
+					</a>
 				</li>
 
 				<li>
-					<a href="/">2. about</a>
+					<a href="#about" onClick={props.toggleHamburger}>
+						2. about
+					</a>
 				</li>
 
 				<li>
-					<a href="/">3. projects</a>
+					<a href="#projects" onClick={props.toggleHamburger}>
+						3. projects
+					</a>
 				</li>
 
 				<li>
-					<a href="/">4. contact</a>
+					<a href="/" onClick={props.toggleHamburger}>
+						4. contact
+					</a>
 				</li>
 
 				<li>
-					<a href="/">3. projects</a>
-				</li>
-
-				<li>
-					<a href="/">resume</a>
+					<a href="/" onClick={props.toggleHamburger}>
+						resume
+					</a>
 				</li>
 			</ul>
 		</>

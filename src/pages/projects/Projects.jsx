@@ -10,7 +10,7 @@ import {
 import grandma from "../../assets/images/grandmasRecipes.png";
 export default function Projects() {
 	return (
-		<div className="projects-container">
+		<div className="projects-container" id="projects">
 			<h2>My Projects</h2>
 			<ul>
 				<Accordion allowZeroExpanded="true" className="projects-accordion">

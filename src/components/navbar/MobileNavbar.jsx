@@ -45,7 +45,7 @@ export default function MobileNavbar() {
 				style={{ width: hamburgerOpen, opacity: hamburgerOpen }}
 			>
 				<div className="Navbar-overlay-content">
-					<NavLinks />
+					<NavLinks toggleHamburger={toggleHamburger} />
 				</div>
 				{iconClosed}
 			</div>

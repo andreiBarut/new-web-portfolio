@@ -14,7 +14,7 @@ import portrait from "../../assets/images/portrait.jpeg";
 export default function About() {
 	return (
 		<>
-			<div className="about-container">
+			<div className="about-container" id="about">
 				<article>
 					<h1>About me</h1>
 					<img src={portrait} alt="myself" className="about-portrait" />
