@@ -13,13 +13,13 @@
 	/* padding: 10vh 10vw; */
 	align-items: center;
 	justify-content: center;
-	text-align: center;
+	/* text-align: center; */
 	/* border: 2px solid red; */
 	animation-name: background-animation;
 	animation-duration: 30s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate-reverse;
-	/* height: fit-content; */
+	height: fit-content;
 }
 
 @keyframes background-animation {
@@ -39,23 +39,65 @@
 
 .projects-featured-article {
 	display: flex;
+	/* border: 2px solid #ffd705; */
+	background-color: #37350a;
+	padding: 10vh;
 }
 
 .projects-featured-article-img {
 	border: 2px solid #ffd705;
-	width: 30vw;
-	height: 30vh;
-	overflow: hidden;
-	/* height: 250px; */
+	/* width: 30vw; */
+	/* overflow: hidden; */
+	height: 40vh;
+	width: 40vh;
 	background-image: url(../../assets/images/grandmasRecipes.png);
 	background-size: cover;
-	filter: sepia(80%);
+	filter: grayscale(100%);
+	border-left: 5px solid #ffd705;
+	border-top: 5px solid #ffd705;
+}
+
+.projects-featured-article-img:hover {
+	filter: grayscale(0);
+	transition: 0.3s;
 }
 
 .projects-featured-description-container {
 	width: 45vw;
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+	gap: 5px;
+	/* position: absolute; */
+	/* left: 50vw; */
 }
 
 .projects-featured-project-paragraph {
 	color: #ffd705;
+}
+
+.projects-featured-description-container h1 {
+	color: white;
+}
+
+.projects-featured-project-description-paragraph {
+	background-color: #1b1b1b;
+	color: #c0c0c0;
+	padding: 5vh;
+}
+
+.projects-featured-description-container ul {
+	display: flex;
+	justify-content: center;
+	color: #ffd705;
+}
+
+.projects-link {
+	font-size: 40px;
+}
+
+@media (max-width: 990px) {
+	.projects-featured-article-img {
+		display: none;
+	}
 }

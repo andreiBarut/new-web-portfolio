@@ -1,0 +1,39 @@
+{
+	"projects": [
+		{
+			"id": 1,
+			"title": "Grandma's Recipes",
+			"image": "",
+			"description": "Cooking assistant made with react, json as database, react router dom for dynamic routing. This project is an homage to my grandmother, who was a cook during the communist period. The recipes are taken from her cookbook.",
+			"technologies": ["JS", "React", "HTML", "CSS", "json"]
+		},
+		{
+			"id": 2,
+			"title": "Currency Exchange App",
+			"image": "",
+			"description": "Currency exchange application with converter and currency evolution over time functionalities, made with vanilla JS and web API.",
+			"technologies": ["JS", "HTML", "CSS", "Web API", "SCSS"]
+		},
+		{
+			"id": 3,
+			"title": "Hangman with Cars",
+			"image": "",
+			"description": "My own version of hangman, with cars and highscore functionality implemented with local storage, designed on the principle of functional programming.",
+			"technologies": ["JS", "HTML", "CSS"]
+		},
+		{
+			"id": 4,
+			"title": "Custom Digital Watch [Work in Progress]",
+			"image": "",
+			"description": "Digital watch application, customizable, with time zone change and time format change functionality, made with vanilla JS, CSS and Web API.",
+			"technologies": ["JS", "CSS", "HTML", "Web API"]
+		},
+		{
+			"id": 5,
+			"title": "Custom Voting Polls [Work in Progress]",
+			"image": "",
+			"description": "CRUD application that allows the user to create various custom voting polls, with login, register functionality, database created with Firebase",
+			"technologies": ["React", "HTML", "CSS", "Firebase"]
+		}
+	]
+}
