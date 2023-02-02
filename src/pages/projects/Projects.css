@@ -35,13 +35,17 @@
 
 .projects-container h2 {
 	color: #ffd705;
+	margin-top: 5vh;
 }
 
 .projects-featured-article {
 	display: flex;
 	/* border: 2px solid #ffd705; */
-	background-color: #37350a;
+	background-color: transparent;
 	padding: 10vh;
+	border-radius: 1px;
+	margin-bottom: 5vh;
+	/* border: 2px dashed #ffd705; */
 }
 
 .projects-featured-article-img {
@@ -50,30 +54,36 @@
 	/* overflow: hidden; */
 	height: 40vh;
 	width: 40vh;
-	background-image: url(../../assets/images/grandmasRecipes.png);
-	background-size: cover;
-	filter: grayscale(100%);
+	/* background-image: url(../../assets/images/grandmasRecipes.png);
+	background-size: cover; */
+	filter: sepia(100%);
 	border-left: 5px solid #ffd705;
 	border-top: 5px solid #ffd705;
+	image-rendering: optimizeSpeed;
+	border-image-repeat: stretch;
+	object-fit: cover;
+	border-radius: 1px;
 }
 
 .projects-featured-article-img:hover {
 	filter: grayscale(0);
-	transition: 0.3s;
+	z-index: 1;
+	transform: scale(1.3);
+	transition: 0.1s;
 }
 
 .projects-featured-description-container {
 	width: 45vw;
 	display: flex;
 	flex-direction: column;
-	text-align: right;
 	gap: 5px;
 	/* position: absolute; */
 	/* left: 50vw; */
+	/* transform: translate(5%); */
 }
 
 .projects-featured-project-paragraph {
-	color: #ffd705;
+	color: #54ff59;
 }
 
 .projects-featured-description-container h1 {
@@ -81,23 +91,52 @@
 }
 
 .projects-featured-project-description-paragraph {
-	background-color: #1b1b1b;
+	background-color: #1b1b1bc8;
 	color: #c0c0c0;
 	padding: 5vh;
+	border-radius: 1px;
+	height: 200px;
+	display: flex;
+	align-items: center;
 }
 
 .projects-featured-description-container ul {
 	display: flex;
 	justify-content: center;
-	color: #ffd705;
+	/* color: #54ff59; */
 }
 
+.technologies-list li {
+	/* border: 5px groove #101010; */
+	background-color: #c0c0c0;
+	padding: 5px;
+	border-radius: 1x;
+}
 .projects-link {
 	font-size: 40px;
+}
+
+.projects-link:hover {
+	transform: scale(1.5);
+	transition: 0.3s;
+	color: white;
 }
 
 @media (max-width: 990px) {
 	.projects-featured-article-img {
 		display: none;
 	}
+
+	.projects-featured-description-container {
+	}
+}
+
+.project-anchor {
+	text-decoration: none;
+	color: #ffd705;
+}
+
+.project-anchor:hover {
+	transition: 0.3s;
+	color: white;
 }

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Home.css";
 
-import { AiFillLinkedin } from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { Zoom } from "react-awesome-reveal";
 
 export default function Home() {
@@ -51,6 +51,15 @@ export default function Home() {
 					rel="noreferrer"
 				>
 					<AiFillLinkedin />
+				</a>
+			</div>
+			<div className="circle-2">
+				<a
+					href="https://www.linkedin.com/in/andrei-emilian-b%C4%83ru%C8%9B-254387237"
+					target={"_blank"}
+					rel="noreferrer"
+				>
+					<AiFillGithub />
 				</a>
 			</div>
 		</>

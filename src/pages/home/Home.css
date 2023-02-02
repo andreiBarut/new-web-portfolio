@@ -30,7 +30,7 @@
 }
 
 .home-container > h1 {
-	color: #ffd705;
+	color: #54ff59;
 	font-family: "Ubuntu Mono", monospace;
 	margin-top: 10vh;
 }
@@ -121,7 +121,7 @@
 
 .circle:hover {
 	transform: scale(2);
-	transition: 0.5s;
+	transition: 0.1s;
 	color: white;
 	background-color: #ffd705;
 	text-decoration: overline;
@@ -129,11 +129,53 @@
 
 .circle a:hover {
 	color: white;
-	transition: 0.4s;
+	transition: 0.1s;
+}
+
+.circle-2 {
+	border: 5px solid #ffd705;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 150px;
+	left: 75px;
+	z-index: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* text-align: center; */
+	background-color: #ffd705;
+}
+
+.circle-2 a {
+	font-size: 180%;
+	color: #1b1b1b;
+	cursor: pointer;
+	background-color: #ffd705;
+	text-decoration: none;
+	display: flex;
+}
+
+.circle-2:hover {
+	transform: scale(2);
+	transition: 0.1s;
+	color: white;
+	background-color: #ffd705;
+	text-decoration: overline;
+}
+
+.circle-2 a:hover {
+	color: white;
+	transition: 0.1s;
 }
 
 @media (max-width: 990px) {
 	.circle {
+		display: none;
+	}
+
+	.circle-2 {
 		display: none;
 	}
 

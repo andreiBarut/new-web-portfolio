@@ -3,37 +3,55 @@
 		{
 			"id": 1,
 			"title": "Grandma's Recipes",
-			"image": "",
+			"image": "grandmasRecipes.png",
 			"description": "Cooking assistant made with react, json as database, react router dom for dynamic routing. This project is an homage to my grandmother, who was a cook during the communist period. The recipes are taken from her cookbook.",
-			"technologies": ["JS", "React", "HTML", "CSS", "json"]
+			"technologies": ["JS", "React", "HTML", "CSS", "json"],
+			"direction": "row",
+			"link": "https://retele-bunicii.netlify.app/",
+			"translate": "-",
+			"align": "right"
 		},
 		{
 			"id": 2,
 			"title": "Currency Exchange App",
-			"image": "",
+			"image": "currencyExchange.png",
 			"description": "Currency exchange application with converter and currency evolution over time functionalities, made with vanilla JS and web API.",
-			"technologies": ["JS", "HTML", "CSS", "Web API", "SCSS"]
+			"technologies": ["JS", "HTML", "CSS", "Web API", "SCSS"],
+			"direction": "row-reverse",
+			"link": "https://andreibarut.github.io/APIExchangeApp/",
+			"translate": ""
 		},
 		{
 			"id": 3,
 			"title": "Hangman with Cars",
-			"image": "",
+			"image": "hangmanWithCars.png",
 			"description": "My own version of hangman, with cars and highscore functionality implemented with local storage, designed on the principle of functional programming.",
-			"technologies": ["JS", "HTML", "CSS"]
+			"technologies": ["JS", "HTML", "CSS"],
+			"direction": "row",
+			"link": "https://andreibarut.github.io/HangManWithCars/",
+			"translate": "-",
+			"align": "right"
 		},
 		{
 			"id": 4,
 			"title": "Custom Digital Watch [Work in Progress]",
-			"image": "",
+			"image": "customDigitalWatch.png",
 			"description": "Digital watch application, customizable, with time zone change and time format change functionality, made with vanilla JS, CSS and Web API.",
-			"technologies": ["JS", "CSS", "HTML", "Web API"]
+			"technologies": ["JS", "CSS", "HTML", "Web API"],
+			"direction": "row-reverse",
+			"link": "https://andreibarut.github.io/digital-watch-vanillajs/",
+			"translate": ""
 		},
 		{
 			"id": 5,
 			"title": "Custom Voting Polls [Work in Progress]",
-			"image": "",
+			"image": "logo192.png",
 			"description": "CRUD application that allows the user to create various custom voting polls, with login, register functionality, database created with Firebase",
-			"technologies": ["React", "HTML", "CSS", "Firebase"]
+			"technologies": ["React", "HTML", "CSS", "Firebase"],
+			"direction": "row",
+			"link": "/",
+			"translate": "-",
+			"align": "right"
 		}
 	]
 }
