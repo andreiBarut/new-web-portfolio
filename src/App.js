@@ -18,13 +18,13 @@ function App() {
 		<div>
 			{/* <Cursor> */}
 			<Navbar />
-			<Fade>
-				<Slide direction="left" duration={1000}>
-					<Home />
-					<About />
-					<Projects />
-				</Slide>
+			{/* <Fade> */}
+			<Fade direction="top" duration={1000}>
+				<Home />
+				<About />
+				<Projects />
 			</Fade>
+			{/* </Fade> */}
 			{/* </Cursor> */}
 		</div>
 	);

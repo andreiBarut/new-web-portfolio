@@ -7,17 +7,23 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	color: #c0c0c0;
+	color: #fcf8cc;
 	/* border: 10px solid red; */
-	background-color: #37350a;
-	background-image: url(../../assets/images/home-bg.png);
+
+	/* background-image: url(../../assets/images/home-bg.png); */
 	/* animation-name: home-glitch; */
-	background-size: contain;
-	animation-name: home-animation;
+	/* animation-name: home-animation;
 	animation-duration: 60s;
 	animation-direction: alternate-reverse;
 	animation-iteration-count: infinite;
-	animation-timing-function: linear;
+	animation-timing-function: linear; */
+	background: #170c00;
+	/* background: radial-gradient(
+		circle,
+		rgba(229, 170, 31, 1) 10%,
+		rgba(57, 42, 5, 1) 70%,
+		rgba(23, 12, 0, 1) 100%
+	); */
 }
 
 @keyframes home-animation {
@@ -29,10 +35,18 @@
 	}
 }
 
-.home-container > h1 {
-	color: #54ff59;
+.home-info-container {
+	/* background-color: #392a059e; */
+	padding: 20px;
+	/* border: 2px solid #fcf8cc; */
+	border-radius: 8px;
+}
+
+.home-info-container > h1 {
+	color: #ff9838;
 	font-family: "Ubuntu Mono", monospace;
 	margin-top: 10vh;
+	font-size: 4vw;
 }
 
 .home-container > h5 {
@@ -40,28 +54,36 @@
 }
 
 .home-myname-span {
-	color: #ffffff;
-	font-size: 200%;
+	color: #fcf8cc;
+	font-size: 5vw;
 	font-weight: bold;
 }
 
+.home-position-span {
+	color: #fcf8cc97;
+	font-size: 3vw;
+	font-style: oblique;
+}
+
 .home-pipe-span {
-	color: #ffd705;
+	color: #ff9838;
 }
 
 .home-resume-container {
-	border: 1px solid #ffd705;
+	border: 1px solid #ff9838;
 	display: flex;
-	justify-content: center;
+	/* justify-content: left !important; */
 	width: fit-content;
 	margin: 0 auto;
 	padding: 0.5rem 3rem;
-	color: #ffd705;
+	margin-top: 50px;
+	color: #ff9838;
 	cursor: pointer;
+	border-radius: 8px;
 }
 
 .home-resume-container:hover {
-	background-color: #37350a;
+	background-color: #ff98382b;
 	transition: 0.1s;
 	text-decoration: overline;
 }
@@ -69,6 +91,9 @@
 @media (max-width: 990px) {
 	.home-container {
 		padding: 20vh;
+	}
+	.home-info-container {
+		/* margin-top: 200px; */
 	}
 }
 
@@ -85,9 +110,10 @@
 }
 
 .line {
-	border: 2px solid #ffd705;
+	/* border: 2px solid #ff9838; */
 	height: 250px;
 	width: 0;
+	/* position: absolute; */
 	position: absolute;
 	bottom: 0;
 	left: 100px;
@@ -95,78 +121,77 @@
 }
 
 .circle {
-	border: 5px solid #ffd705;
-	height: 50px;
-	width: 50px;
-	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	border-radius: 8px;
 	position: absolute;
 	bottom: 250px;
-	left: 75px;
+	left: 80px;
 	z-index: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	/* text-align: center; */
-	background-color: #ffd705;
+	background-color: #ff9838;
 }
 
 .circle a {
-	font-size: 180%;
-	color: #1b1b1b;
+	font-size: 30px;
+	color: #170c00;
 	cursor: pointer;
-	background-color: #ffd705;
+	background-color: #ff9838;
 	text-decoration: none;
 	display: flex;
 }
 
 .circle:hover {
-	transform: scale(2);
+	transform: scale(1.3);
 	transition: 0.1s;
 	color: white;
-	background-color: #ffd705;
+	/* background-color: #170c00; */
 	text-decoration: overline;
 }
 
 .circle a:hover {
-	color: white;
+	color: #fcf8cc;
 	transition: 0.1s;
 }
 
 .circle-2 {
-	border: 5px solid #ffd705;
-	height: 50px;
-	width: 50px;
-	border-radius: 50%;
+	/* border: 5px solid rgb(229, 170, 31); */
+	height: 40px;
+	width: 40px;
+	border-radius: 8px;
 	position: absolute;
 	bottom: 150px;
-	left: 75px;
+	left: 80px;
 	z-index: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	/* text-align: center; */
-	background-color: #ffd705;
+	background-color: #ff9838;
 }
 
 .circle-2 a {
-	font-size: 180%;
+	font-size: 30px;
 	color: #1b1b1b;
 	cursor: pointer;
-	background-color: #ffd705;
+	background-color: #ff9838;
 	text-decoration: none;
 	display: flex;
 }
 
 .circle-2:hover {
-	transform: scale(2);
+	transform: scale(1.3);
 	transition: 0.1s;
-	color: white;
-	background-color: #ffd705;
+	/* color: white; */
+	/* background-color: rgb(229, 170, 31); */
 	text-decoration: overline;
 }
 
 .circle-2 a:hover {
-	color: white;
+	color: #fcf8cc;
 	transition: 0.1s;
 }
 

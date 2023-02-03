@@ -23,37 +23,37 @@ export default function About() {
 				<article>
 					<h1>Skills</h1>
 					<ul class="about-skills-list">
-						<li>
+						{/* <li>
 							<AiFillHtml5 />
-						</li>
+						</li> */}
 						<li>HTML</li>
-						<li>
+						{/* <li>
 							<DiCss3 />
-						</li>
+						</li> */}
 						<li>CSS</li>
-						<li>
+						{/* <li>
 							<DiJavascript1 />
-						</li>
+						</li> */}
 						<li>JavaScript</li>
-						<li>
+						{/* <li>
 							<DiReact />
-						</li>
+						</li> */}
 						<li>React.js</li>
-						<li>
+						{/* <li>
 							<DiBootstrap />
-						</li>
+						</li> */}
 						<li>Bootstrap</li>
-						<li>
+						{/* <li>
 							<DiSass />
-						</li>
+						</li> */}
 						<li>SCSS</li>
-						<li>
+						{/* <li>
 							<DiGit />
-						</li>
+						</li> */}
 						<li>Git</li>
-						<li>
+						{/* <li>
 							<FiFigma />
-						</li>
+						</li> */}
 						<li>Figma</li>
 					</ul>
 				</article>

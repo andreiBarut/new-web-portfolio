@@ -1,5 +1,5 @@
 .about-container {
-	background-color: #1b1b1b;
+	background-color: #170c00;
 	/* height: fit-content; */
 	font-family: "Ubuntu Mono", monospace;
 	display: flex;
@@ -15,14 +15,15 @@
 }
 
 .about-container h1 {
-	color: #ffd705;
+	color: #ff9838;
 	font-family: "Ubuntu Mono", monospace;
 	text-align: center;
 	margin: 2vh;
+	text-decoration: overline;
 }
 
 .about-container p {
-	color: #c0c0c0;
+	color: #fcf8cc;
 	/* padding: 0 20vh; */
 	/* border: 2px solid red; */
 	width: 45vw;
@@ -52,25 +53,24 @@
 }
 
 .about-container .about-skills-list {
-	list-style-type: none;
-
+	list-style-type: armenian;
 	display: grid;
-	grid-template-columns: repeat(4, auto);
-	gap: 2vh;
+	grid-template-columns: repeat(2, auto);
+	gap: 50px;
 }
 
 .about-container .about-skills-list li {
-	color: #1b1b1b;
-	padding: 5px;
+	color: #fcf8cc97;
+	/* padding: 5px; */
 	border-radius: 1px;
 	/* border: 5px groove #101010; */
-	background-color: #c0c0c0;
+	/* background-color: #c0c0c0; */
 	font-size: larger;
 }
 
 .about-container .about-skills-list li:hover {
-	transform: scale(1.5);
-	transition: 0.3s;
-	color: #54ff59;
+	transform: scale(1.1);
+	transition: 0.1s;
+	color: #ff9838;
 	cursor: crosshair;
 }

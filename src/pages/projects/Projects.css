@@ -1,6 +1,6 @@
 .projects-container {
 	/* background-color: ; */
-	background-image: url(../../assets/images/home-bg.png);
+	/* background-image: url(../../assets/images/home-bg.png); */
 	background-repeat: repeat;
 	background-position: 0cm;
 	background-size: contain;
@@ -34,22 +34,23 @@
 }
 
 .projects-container h2 {
-	color: #ffd705;
+	color: #ff9838;
 	margin-top: 5vh;
+	text-decoration: overline;
 }
 
 .projects-featured-article {
 	display: flex;
-	/* border: 2px solid #ffd705; */
+	/* border: 2px solid #ff9838; */
 	background-color: transparent;
 	padding: 10vh;
 	border-radius: 1px;
 	margin-bottom: 5vh;
-	/* border: 2px dashed #ffd705; */
+	/* border: 2px dashed #ff9838; */
 }
 
 .projects-featured-article-img {
-	border: 2px solid #ffd705;
+	border: 2px solid #ff9838;
 	/* width: 30vw; */
 	/* overflow: hidden; */
 	height: 40vh;
@@ -57,8 +58,8 @@
 	/* background-image: url(../../assets/images/grandmasRecipes.png);
 	background-size: cover; */
 	filter: sepia(100%);
-	border-left: 5px solid #ffd705;
-	border-top: 5px solid #ffd705;
+	border-left: 5px solid #ff9838;
+	border-top: 5px solid #ff9838;
 	image-rendering: optimizeSpeed;
 	border-image-repeat: stretch;
 	object-fit: cover;
@@ -83,16 +84,17 @@
 }
 
 .projects-featured-project-paragraph {
-	color: #54ff59;
+	color: #ff9838;
 }
 
 .projects-featured-description-container h1 {
-	color: white;
+	color: #fcf8cc;
 }
 
 .projects-featured-project-description-paragraph {
-	background-color: #1b1b1bc8;
-	color: #c0c0c0;
+	background-color: #392a05b4;
+	backdrop-filter: blur(10px);
+	color: #fcf8cc;
 	padding: 5vh;
 	border-radius: 1px;
 	height: 200px;
@@ -108,9 +110,10 @@
 
 .technologies-list li {
 	/* border: 5px groove #101010; */
-	background-color: #c0c0c0;
+	/* background-color: #c0c0c0; */
 	padding: 5px;
 	border-radius: 1x;
+	color: #fcf8cc97;
 }
 .projects-link {
 	font-size: 40px;
@@ -133,7 +136,7 @@
 
 .project-anchor {
 	text-decoration: none;
-	color: #ffd705;
+	color: #ff9838;
 }
 
 .project-anchor:hover {

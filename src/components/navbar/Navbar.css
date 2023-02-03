@@ -4,8 +4,11 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	background-image: url(../../assets/images/mobile-nav-bg.png);
-	opacity: 1;
+	/* background-image: url(../../assets/images/mobile-nav-bg.png); */
+	/* opacity: 1; */
+	background-color: #170c0054;
+	/* filter: ; */
+	box-shadow: 0px 3px 20px #00000068;
 	background-repeat: repeat;
 	background-size: 60vw;
 	background-position: center;
@@ -13,6 +16,7 @@
 	width: 100vw;
 	height: 55px;
 	z-index: 1;
+	backdrop-filter: blur(10px);
 }
 
 ul {
@@ -41,13 +45,31 @@ ul {
 }
 
 .Navbar-container .Navbar-DesktopNavbar a:hover {
-	color: #ffd705;
+	color: #ff9838;
 	text-decoration: overline;
 	transition: 0.3s;
 }
 
+.resume-link {
+	border: 1px solid #ff9838;
+	/* display: flex; */
+	/* justify-content: left !important; */
+	width: fit-content;
+	color: #ff9838 !important;
+	margin: 0 auto;
+	padding: 0.5rem 1rem;
+	margin-top: 50px;
+	color: #ff9838;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+.resume-link:hover {
+	background-color: #ff98382b;
+}
+
 .navbar-hamburger-open {
-	visiblity: hidden;
+	visibility: hidden;
 }
 
 /*^ MEDIA QUERY */
@@ -65,7 +87,8 @@ ul {
 		width: 0%;
 		overflow-x: hidden;
 		transition: 0.5s;
-		background-color: #1b1b1b;
+		background-color: #170c00;
+		backdrop-filter: blur(100px);
 		overflow-y: hidden;
 		display: flex;
 		align-items: center;
@@ -100,13 +123,13 @@ ul {
 
 	.Navbar-overlay ul a:hover {
 		text-decoration: overline;
-		color: #ffd705;
+		color: #ff9838;
 		transition: 0.3s;
 	}
 
 	.navbar-hamburger-closed {
 		font-size: 50px;
-		color: #ffd705;
+		color: #ff9838;
 		position: absolute;
 		right: 0;
 		top: 0;
@@ -117,7 +140,7 @@ ul {
 		visibility: visible;
 		display: block;
 		font-size: 50px;
-		color: #ffd705;
+		color: #ff9838;
 		cursor: pointer;
 		position: absolute;
 		right: 12px;

@@ -1,12 +1,12 @@
 .Navbar-Logo {
-	color: #ffd705;
+	color: #ff9838;
 	font-size: 2.5rem;
 	cursor: pointer;
 }
 
 .logo-underscore-span-active {
 	opacity: 100%;
-	color: #54ff59;
+	color: #ff9838;
 }
 
 .logo-underscore-span-hidden {
