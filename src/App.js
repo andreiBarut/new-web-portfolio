@@ -19,7 +19,7 @@ function App() {
 			{/* <Cursor> */}
 			<Navbar />
 			{/* <Fade> */}
-			<Fade direction="top" duration={1000}>
+			<Fade direction="bottom" duration={1500}>
 				<Home />
 				<About />
 				<Projects />
