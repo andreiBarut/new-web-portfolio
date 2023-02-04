@@ -5,13 +5,13 @@
 	background-position: 0cm;
 	background-size: contain;
 	/* height: fit-content; */
-	font-family: "Ubuntu Mono", monospace;
+	/* font-family: "Ubuntu Mono", monospace; */
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	gap: 2vh;
-	/* padding: 10vh 10vw; */
-	align-items: center;
+	padding: 10vh 10vw;
+	/* align-items: center; */
 	justify-content: center;
 	/* text-align: center; */
 	/* border: 2px solid red; */
@@ -34,9 +34,12 @@
 }
 
 .projects-container h2 {
-	color: #ff9838;
+	/* color: #ff9838; */
 	margin-top: 5vh;
 	text-decoration: overline;
+	font-size: 10vh;
+	color: #fcf8cc;
+	text-align: right;
 }
 
 .projects-featured-article {
@@ -63,14 +66,14 @@
 	image-rendering: optimizeSpeed;
 	border-image-repeat: stretch;
 	object-fit: cover;
-	border-radius: 1px;
+	border-radius: 8px;
 }
 
 .projects-featured-article-img:hover {
-	filter: grayscale(0);
-	z-index: 1;
-	transform: scale(1.3);
-	transition: 0.1s;
+	filter: sepia(0);
+	/* z-index: 1; */
+	transform: translate(-2px);
+	transition: 0.5s;
 }
 
 .projects-featured-description-container {
@@ -97,9 +100,10 @@
 	color: #fcf8cc;
 	padding: 5vh;
 	border-radius: 1px;
-	height: 200px;
+	height: 300px;
 	display: flex;
 	align-items: center;
+	border-radius: 8px;
 }
 
 .projects-featured-description-container ul {
@@ -120,7 +124,7 @@
 }
 
 .projects-link:hover {
-	transform: scale(1.5);
+	transform: translate(-2px);
 	transition: 0.3s;
 	color: white;
 }

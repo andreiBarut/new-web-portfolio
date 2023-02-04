@@ -17,3 +17,78 @@ body {
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
+.app-links-container {
+	visibility: visible;
+	position: fixed;
+	left: 2vw;
+	border: 1.5px solid #ff9838;
+	display: flex;
+	bottom: 6vh;
+	flex-direction: column;
+	gap: 5vh;
+	justify-content: space-around;
+	padding: 4vh 0.5vw;
+	border-radius: 8px;
+}
+
+@media (max-width: 990px) {
+	.app-links-container {
+		visibility: hidden;
+	}
+}
+
+.app-links-container a {
+	width: 25px;
+	height: 25px;
+	border-radius: 8px;
+	background-color: transparent;
+	/* position: fixed; */
+	bottom: 60vh;
+	z-index: 3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
+	border: 1.5px solid #ff9838;
+	color: #ff9838;
+	z-index: 2;
+}
+
+.app-links-container a {
+	width: 25px;
+	height: 25px;
+	border-radius: 8px;
+	background-color: transparent;
+	/* position: fixed; */
+	bottom: 40vh;
+	z-index: 3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
+	border: 1.5px solid #ff9838;
+	color: #ff9838;
+	z-index: 2;
+}
+
+.app-links-container a:hover {
+	transform: translate(-2px);
+	transition: 0.1s;
+	background-color: #ff98382b;
+	text-decoration: overline;
+	color: #fcf8cc;
+}
+
+/* .app-line {
+	border: 2px solid #ff9838;
+	position: fixed;
+	bottom: 44.1vh;
+	left: calc(5vw + 13px);
+	height: 16vh;
+	z-index: 0;
+} */
+
+.highlighted {
+	color: #ff9838;
+}

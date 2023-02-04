@@ -2,6 +2,7 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Projects from "./pages/projects/Projects";
+
 import {
 	Fade,
 	Reveal,
@@ -11,7 +12,7 @@ import {
 	Slide,
 } from "react-awesome-reveal";
 // import Cursor from "react-special-cursor";
-import { AiFillLinkedin } from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
 function App() {
 	return (
@@ -19,10 +20,25 @@ function App() {
 			{/* <Cursor> */}
 			<Navbar />
 			{/* <Fade> */}
-			<Fade direction="bottom" duration={1500}>
-				<Home />
-				<About />
-				<Projects />
+			{/* <Fade direction="bottom" duration={1500}> */}
+			<Home />
+			<About />
+			<Projects />
+			{/* </Fade> */}
+			<Fade triggerOnce>
+				<div className="app-links-container">
+					{/* <div className="app-line"></div> */}
+					<div className="app-linkedIn-square">
+						<a href="/">
+							<AiFillLinkedin />
+						</a>
+					</div>
+					<div className="app-github-square">
+						<a href="/">
+							<AiFillGithub />
+						</a>
+					</div>
+				</div>
 			</Fade>
 			{/* </Fade> */}
 			{/* </Cursor> */}

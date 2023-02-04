@@ -131,7 +131,7 @@ ul {
 		font-size: 50px;
 		color: #ff9838;
 		position: absolute;
-		right: 0;
+		right: 12px;
 		top: 0;
 		cursor: pointer;
 		transition: 0.5s;
