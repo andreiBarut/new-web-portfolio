@@ -92,3 +92,28 @@ code {
 .highlighted {
 	color: #ff9838;
 }
+
+.underlined {
+	text-decoration: underline;
+}
+
+.overlined {
+	text-decoration: overline;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #ff9838;
+	border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #fcf8cc;
+}

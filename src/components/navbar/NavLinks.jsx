@@ -27,7 +27,7 @@ export default function NavLinks(props) {
 				</li>
 
 				<li>
-					<a href="/" onClick={props.toggleHamburger} className="link">
+					<a href="#contact" onClick={props.toggleHamburger} className="link">
 						contact
 					</a>
 				</li>

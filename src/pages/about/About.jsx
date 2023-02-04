@@ -18,7 +18,7 @@ export default function About() {
 			<div className="about-container" id="about">
 				<Fade direction="bottom" duration={2000}>
 					<article>
-						<h1>About me</h1>
+						<h1 className="overlined">About me</h1>
 						<img src={portrait} alt="myself" className="about-portrait" />
 					</article>
 				</Fade>

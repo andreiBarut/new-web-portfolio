@@ -11,7 +11,7 @@
 	flex-wrap: wrap;
 	gap: 2vh;
 	padding: 10vh 10vw;
-	/* align-items: center; */
+	align-items: center;
 	justify-content: center;
 	/* text-align: center; */
 	/* border: 2px solid red; */
@@ -46,9 +46,9 @@
 	display: flex;
 	/* border: 2px solid #ff9838; */
 	background-color: transparent;
-	padding: 10vh;
+	/* padding: 10vh; */
 	border-radius: 1px;
-	margin-bottom: 5vh;
+	/* margin-bottom: 5vh; */
 	/* border: 2px dashed #ff9838; */
 }
 
