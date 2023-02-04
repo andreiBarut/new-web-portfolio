@@ -134,7 +134,8 @@
 		display: none;
 	}
 
-	.projects-featured-description-container {
+	.projects-featured-project-description-paragraph {
+		height: fit-content;
 	}
 }
 
