@@ -51,12 +51,20 @@ export default function Home() {
 						<div className="app-links-container">
 							{/* <div className="app-line"></div> */}
 							<div className="app-linkedIn-square">
-								<a href="/">
+								<a
+									href="https://www.linkedin.com/in/andrei-emilian-b%C4%83ru%C8%9B-254387237"
+									target={"_blank"}
+									rel="noreferrer"
+								>
 									<AiFillLinkedin />
 								</a>
 							</div>
 							<div className="app-github-square">
-								<a href="/">
+								<a
+									href="https://github.com/andreiBarut?tab=repositories"
+									target={"_blank"}
+									rel="noreferrer"
+								>
 									<AiFillGithub />
 								</a>
 							</div>
