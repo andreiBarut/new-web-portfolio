@@ -32,7 +32,7 @@ export default function NavLinks(props) {
 					</a>
 				</li>
 
-				<li>
+				{/* <li>
 					<a
 						href="./CV.pdf"
 						onClick={props.toggleHamburger}
@@ -41,7 +41,7 @@ export default function NavLinks(props) {
 					>
 						resume
 					</a>
-				</li>
+				</li> */}
 			</ul>
 		</>
 	);

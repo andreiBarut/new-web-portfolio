@@ -20,16 +20,19 @@ code {
 
 .app-links-container {
 	visibility: visible;
-	position: fixed;
+	/* position: fixed; */
 	left: 2vw;
 	border: 1.5px solid #ff9838;
 	display: flex;
 	bottom: 6vh;
-	flex-direction: column;
+	flex-direction: row;
 	gap: 5vh;
-	justify-content: space-around;
-	padding: 4vh 0.5vw;
+	justify-content: center;
+	padding: 1vh;
+	margin: 2vh auto;
 	border-radius: 8px;
+	height: fit-content;
+	width: 15%;
 }
 
 @media (max-width: 990px) {
@@ -73,11 +76,11 @@ code {
 }
 
 .app-links-container a:hover {
-	transform: translate(-2px);
+	transform: translateY(2px);
 	transition: 0.1s;
 	background-color: #ff98382b;
 	text-decoration: overline;
-	color: #fcf8cc;
+	/* color: #fcf8cc; */
 }
 
 /* .app-line {

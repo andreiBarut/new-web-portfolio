@@ -45,9 +45,22 @@ export default function Home() {
 							within the IT Industry.
 							<span className="home-pipe-span"> |</span>
 						</p>
-						<a href="./CV.pdf" download className="home-resume-container">
+						{/* <a href="./CV.pdf" download className="home-resume-container">
 							resume
-						</a>
+						</a> */}
+						<div className="app-links-container">
+							{/* <div className="app-line"></div> */}
+							<div className="app-linkedIn-square">
+								<a href="/">
+									<AiFillLinkedin />
+								</a>
+							</div>
+							<div className="app-github-square">
+								<a href="/">
+									<AiFillGithub />
+								</a>
+							</div>
+						</div>
 					</div>
 				</section>
 			</Fade>

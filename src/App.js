@@ -26,21 +26,7 @@ function App() {
 			<About />
 			<Projects />
 			{/* </Fade> */}
-			<Fade triggerOnce>
-				<div className="app-links-container">
-					{/* <div className="app-line"></div> */}
-					<div className="app-linkedIn-square">
-						<a href="/">
-							<AiFillLinkedin />
-						</a>
-					</div>
-					<div className="app-github-square">
-						<a href="/">
-							<AiFillGithub />
-						</a>
-					</div>
-				</div>
-			</Fade>
+			<Fade triggerOnce></Fade>
 			<Contact />
 			<Footer />
 			{/* </Fade> */}
