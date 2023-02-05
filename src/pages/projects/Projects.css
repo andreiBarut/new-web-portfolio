@@ -137,6 +137,10 @@
 	.projects-featured-project-description-paragraph {
 		height: fit-content;
 	}
+
+	.projects-featured-description-container {
+		width: 60vw;
+	}
 }
 
 .project-anchor {

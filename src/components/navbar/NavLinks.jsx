@@ -33,7 +33,12 @@ export default function NavLinks(props) {
 				</li>
 
 				<li>
-					<a href="/" onClick={props.toggleHamburger} className="link resume-link">
+					<a
+						href="./CV.pdf"
+						onClick={props.toggleHamburger}
+						className="link resume-link"
+						download
+					>
 						resume
 					</a>
 				</li>

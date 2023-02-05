@@ -46,7 +46,7 @@
 	color: #ff9838;
 	font-family: "Ubuntu Mono", monospace;
 	margin-top: 10vh;
-	font-size: 4vw;
+	font-size: 5vh;
 }
 
 .home-container > h5 {
@@ -55,13 +55,13 @@
 
 .home-myname-span {
 	color: #fcf8cc;
-	font-size: 5vw;
+	font-size: 7vh;
 	font-weight: bold;
 }
 
 .home-position-span {
 	color: #fcf8cc97;
-	font-size: 3vw;
+	font-size: 4vh;
 	font-style: oblique;
 }
 
@@ -80,6 +80,7 @@
 	color: #ff9838;
 	cursor: pointer;
 	border-radius: 8px;
+	text-decoration: none;
 }
 
 .home-resume-container:hover {

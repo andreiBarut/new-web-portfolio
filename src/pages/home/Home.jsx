@@ -45,7 +45,9 @@ export default function Home() {
 							within the IT Industry.
 							<span className="home-pipe-span"> |</span>
 						</p>
-						<div className="home-resume-container">resume</div>
+						<a href="./CV.pdf" download className="home-resume-container">
+							resume
+						</a>
 					</div>
 				</section>
 			</Fade>

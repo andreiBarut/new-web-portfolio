@@ -28,6 +28,7 @@
 	backdrop-filter: blur(10px);
 	padding: 0 4vh;
 	border-radius: 8px;
+	width: fit-content;
 }
 
 .about-container h1 {
@@ -76,6 +77,12 @@
 		grid-template-columns: repeat(2, auto);
 		gap: 30px;
 		justify-content: center;
+	}
+
+	.about-articles {
+		width: 80vw;
+		align-items: center;
+		padding: 5vh 0;
 	}
 }
 
