@@ -38,7 +38,7 @@ export default function Projects() {
 							}}
 						>
 							<p className="projects-featured-project-paragraph">
-								Featured Project #{project.id}
+								Featured Project # {project.id}
 							</p>
 							<h1>{project.title}</h1>
 							<p className="projects-featured-project-description-paragraph">
