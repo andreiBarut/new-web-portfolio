@@ -32,7 +32,7 @@ code {
 	margin: 2vh auto;
 	border-radius: 8px;
 	height: fit-content;
-	width: 15%;
+	width: 10vw;
 }
 
 @media (max-width: 990px) {
