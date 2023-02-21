@@ -1,23 +1,13 @@
 import "./Projects.css";
-import { AiFillCaretDown, AiOutlineLink, AiFillGithub } from "react-icons/ai";
-// import {
-// 	Accordion,
-// 	AccordionItem,
-// 	AccordionItemHeading,
-// 	AccordionItemButton,
-// 	AccordionItemPanel,
-// } from "react-accessible-accordion";
-import { AiFillLinkedin } from "react-icons/ai";
+import { AiOutlineLink, AiFillGithub } from "react-icons/ai";
 import db from "../../db.json";
 import { Fade } from "react-awesome-reveal";
-// import "react-accessible-accordion/dist/fancy-example.css";
 
 export default function Projects() {
 	return (
 		<div className="projects-container" id="projects">
 			<h2>My Projects</h2>
 			<Fade direction="bottom" duration={2000}>
-				{/* {db.projects[0].title} */}
 				{db.projects.map((project) => (
 					<article
 						className="projects-featured-article"
@@ -55,6 +45,7 @@ export default function Projects() {
 										href="https://github.com/andreiBarut?tab=repositories"
 										target={"_blank"}
 										className="project-anchor"
+										rel="noreferrer"
 									>
 										<AiFillGithub className="projects-link" />
 									</a>

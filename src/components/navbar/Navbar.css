@@ -4,10 +4,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	/* background-image: url(../../assets/images/mobile-nav-bg.png); */
-	/* opacity: 1; */
 	background-color: #170c0054;
-	/* filter: ; */
 	box-shadow: 0px 3px 20px #00000068;
 	background-repeat: repeat;
 	background-size: 60vw;
@@ -30,7 +27,6 @@ ul {
 .Navbar-container .Navbar-DesktopNavbar {
 	position: absolute;
 	right: 2%;
-	/* had to do  this because otherwise it would treat the hidden mobile nav as a flex element, it would not justify as space between*/
 }
 
 .Navbar-container .Navbar-DesktopNavbar ul {
@@ -52,8 +48,6 @@ ul {
 
 .resume-link {
 	border: 1px solid #ff9838;
-	/* display: flex; */
-	/* justify-content: left !important; */
 	width: fit-content;
 	color: #ff9838 !important;
 	margin: 0 auto;
@@ -79,9 +73,6 @@ ul {
 		display: none;
 	}
 	.Navbar-overlay {
-		/* display: flex; */
-		/* flex-direction: column; */
-		/* border: 2px solid red; */
 		height: 100vh;
 		position: fixed;
 		width: 0%;
@@ -96,14 +87,11 @@ ul {
 	}
 
 	.Navbar-overlay-content {
-		/* position: absolute; */
-		/* top: 25%; */
 		width: 100%;
 		height: fit-content;
 		text-align: center;
 		margin-top: 30px;
 		display: flex;
-		/* flex-direction: column; */
 		justify-content: center;
 		align-self: center;
 		position: relative;

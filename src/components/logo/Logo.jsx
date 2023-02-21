@@ -1,14 +1,7 @@
 import { useState } from "react";
 import "./Logo.css";
+
 export default function Logo() {
-	// const [dot, setDot] = useState("_");
-	// setTimeout(() => {
-	// 	if (dot.includes("_")) {
-	// 		setDot(" ");
-	// 		return;
-	// 	}
-	// 	setDot("_");
-	// }, 500);
 	const [className, setClassName] = useState("logo-underscore-span-active");
 	setTimeout(() => {
 		if (className === "logo-underscore-span-active") {

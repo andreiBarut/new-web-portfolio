@@ -1,13 +1,7 @@
 export default function NavLinks(props) {
 	return (
 		<>
-			<ul
-				className="NavLinks-Ul"
-				// style={{
-				// 	transform: props.hamburgerBool,
-				// 	display: props.displayBool,
-				// }}
-			>
+			<ul>
 				<li>
 					<a href="#home" onClick={props.toggleHamburger} className="link">
 						home
@@ -31,17 +25,6 @@ export default function NavLinks(props) {
 						contact
 					</a>
 				</li>
-
-				{/* <li>
-					<a
-						href="./CV.pdf"
-						onClick={props.toggleHamburger}
-						className="link resume-link"
-						download
-					>
-						resume
-					</a>
-				</li> */}
 			</ul>
 		</>
 	);

@@ -1,14 +1,10 @@
 import { useState } from "react";
 import "./Home.css";
-
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import { Zoom } from "react-awesome-reveal";
 import { Fade } from "react-awesome-reveal";
+
 export default function Home() {
 	const [pipe, setPipe] = useState("|");
-	// const squares = ["squareOne", "squareTwo", "squareThree", "squareFour"];
-	// const [squareInd, setSquareInd] = useState(0);
-	// const [currentSquare, setCurrentSquare] = useState(squares[squareInd]);
 
 	setTimeout(() => {
 		if (pipe.includes("|")) {
@@ -18,18 +14,10 @@ export default function Home() {
 		setPipe("|");
 	}, 500);
 
-	function load() {}
-
 	return (
 		<>
 			<Fade>
 				<section className="home-container" id="home">
-					{/* I WANT TO MAKE A LOADING BAR HERE */}
-					{/* <div className="home-loadingBar-container">
-					{squares.map((square) => (
-						<div key={square} className="square" id={square}></div>
-					))}
-				</div> */}
 					<div className="home-info-container">
 						<h1>hi, my name is</h1>
 						<p>
@@ -45,11 +33,8 @@ export default function Home() {
 							within the IT Industry.
 							<span className="home-pipe-span"> |</span>
 						</p>
-						{/* <a href="./CV.pdf" download className="home-resume-container">
-							resume
-						</a> */}
+
 						<div className="app-links-container">
-							{/* <div className="app-line"></div> */}
 							<div className="app-linkedIn-square">
 								<a
 									href="https://www.linkedin.com/in/andrei-emilian-b%C4%83ru%C8%9B-254387237"

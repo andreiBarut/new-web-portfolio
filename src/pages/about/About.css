@@ -1,21 +1,12 @@
 .about-container {
-	/* height: fit-content; */
-	/* font-family: "Ubuntu Mono", monospace; */
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	gap: 5vh;
-	/* padding: 10vh 15vh; */
 	align-items: baseline;
 	justify-content: center;
 	text-align: center;
-	/* justify-tracks: end; */
-	/* text-align: right; */
-	/* justify-content: right; */
-	/* text-align: center; */
-	/* height: 100vh; */
 	color: #c0c0c0;
-	/* border: 3px solid red; */
 	width: 90vw;
 	margin: 0 auto;
 }
@@ -33,18 +24,13 @@
 
 .about-container h1 {
 	color: #fcf8cc;
-	/* font-family: "Ubuntu Mono", monospace; */
 	text-align: center;
 	margin: 2vh;
 	font-size: 10vh;
-	/* text-decoration: overline; */
-	/* text-align: right; */
 }
 
 .about-container p {
 	color: #fcf8cc;
-	/* padding: 0 20vh; */
-	/* border: 2px solid red; */
 	width: 45vw;
 	margin: 2vh 0;
 	letter-spacing: 1px;
@@ -55,12 +41,9 @@
 .about-container .about-portrait {
 	width: 15vw;
 	border-radius: 8px;
-	/* border: 1.5px solid #ff9838;
-	border-top-right-radius: 50px; */
 	cursor: pointer;
 	outline: 1.5px solid #ff9838;
 	margin-top: 10vh;
-	/* border: 5px groove #ffd705; */
 	filter: grayscale(30%);
 	transition: 0.3s;
 }
@@ -88,7 +71,6 @@
 
 .about-container .about-portrait:hover {
 	transition: 0.1s;
-	/* border: 0; */
 	filter: grayscale(0);
 	outline-offset: 10px;
 }
@@ -104,10 +86,7 @@
 
 .about-container .about-skills-list li {
 	color: #ff9838;
-	/* padding: 5px; */
 	border-radius: 1px;
-	/* border: 5px groove #101010; */
-	/* background-color: #c0c0c0; */
 	font-size: larger;
 }
 

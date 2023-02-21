@@ -1,14 +1,4 @@
 import "./About.css";
-import { AiFillHtml5 } from "react-icons/ai";
-import { FiFigma } from "react-icons/fi";
-import {
-	DiCss3,
-	DiJavascript1,
-	DiReact,
-	DiBootstrap,
-	DiSass,
-	DiGit,
-} from "react-icons/di";
 import portrait from "../../assets/images/portrait.jpeg";
 import { Fade } from "react-awesome-reveal";
 
@@ -26,9 +16,10 @@ export default function About() {
 				<article className="about-articles">
 					<Fade direction="bottom" duration={2000}>
 						<p>
-							I was in university when I attended a web design class, where I learned
-							to build static web pages using HTML and CSS. But I was curious for more.
-							That is when I decided to take the{" "}
+							Over two years experience working with HTML, CSS (flexbox, grid layouts,
+							bootstrap, SCSS), one year of working with JavaScript, over 6 months
+							working with React. I focused on developing my programming skills with
+							JavaScript and React the past year, when I attended an 8 month intensive{" "}
 							<span className="highlighted">JavaScript coding bootcamp at SDA</span>.
 						</p>
 					</Fade>
@@ -50,39 +41,21 @@ export default function About() {
 					</Fade>
 					<Fade>
 						<article>
-							{/* <h1>Skills</h1> */}
 							<ul class="about-skills-list">
-								{/* <li>
-							<AiFillHtml5 />
-						</li> */}
 								<li>HTML</li>
-								{/* <li>
-							<DiCss3 />
-						</li> */}
+
 								<li>CSS</li>
-								{/* <li>
-							<DiJavascript1 />
-						</li> */}
+
 								<li>JavaScript</li>
-								{/* <li>
-							<DiReact />
-						</li> */}
+
 								<li>React.js</li>
-								{/* <li>
-							<DiBootstrap />
-						</li> */}
+
 								<li>Bootstrap</li>
-								{/* <li>
-							<DiSass />
-						</li> */}
+
 								<li>SCSS</li>
-								{/* <li>
-							<DiGit />
-						</li> */}
+
 								<li>Git</li>
-								{/* <li>
-							<FiFigma />
-						</li> */}
+
 								<li>Figma</li>
 							</ul>
 						</article>

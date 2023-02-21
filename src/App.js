@@ -4,33 +4,16 @@ import About from "./pages/about/About";
 import Projects from "./pages/projects/Projects";
 import Footer from "./components/footer/Footer";
 import Contact from "./pages/contact/Contact";
-import {
-	Fade,
-	Reveal,
-	Zoom,
-	JackInTheBox,
-	Roll,
-	Slide,
-} from "react-awesome-reveal";
-// import Cursor from "react-special-cursor";
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
 function App() {
 	return (
 		<div>
-			{/* <Cursor> */}
 			<Navbar />
-			{/* <Fade> */}
-			{/* <Fade direction="bottom" duration={1500}> */}
 			<Home />
 			<About />
 			<Projects />
-			{/* </Fade> */}
-			<Fade triggerOnce></Fade>
 			<Contact />
 			<Footer />
-			{/* </Fade> */}
-			{/* </Cursor> */}
 		</div>
 	);
 }

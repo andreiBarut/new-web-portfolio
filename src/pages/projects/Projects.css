@@ -1,11 +1,7 @@
 .projects-container {
-	/* background-color: ; */
-	/* background-image: url(../../assets/images/home-bg.png); */
 	background-repeat: repeat;
 	background-position: 0cm;
 	background-size: contain;
-	/* height: fit-content; */
-	/* font-family: "Ubuntu Mono", monospace; */
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -13,8 +9,6 @@
 	padding: 10vh 10vw;
 	align-items: center;
 	justify-content: center;
-	/* text-align: center; */
-	/* border: 2px solid red; */
 	animation-name: background-animation;
 	animation-duration: 30s;
 	animation-iteration-count: infinite;
@@ -25,16 +19,13 @@
 @keyframes background-animation {
 	from {
 		background-position: 0cm;
-		/* background-size: 4cm; */
 	}
 	to {
 		background-position: 20cm;
-		/* background-size: 7cm; */
 	}
 }
 
 .projects-container h2 {
-	/* color: #ff9838; */
 	margin-top: 5vh;
 	text-decoration: overline;
 	font-size: 10vh;
@@ -44,22 +35,14 @@
 
 .projects-featured-article {
 	display: flex;
-	/* border: 2px solid #ff9838; */
 	background-color: transparent;
-	/* padding: 10vh; */
 	border-radius: 1px;
-	/* margin-bottom: 5vh; */
-	/* border: 2px dashed #ff9838; */
 }
 
 .projects-featured-article-img {
 	border: 2px solid #ff9838;
-	/* width: 30vw; */
-	/* overflow: hidden; */
 	height: 40vh;
 	width: 40vh;
-	/* background-image: url(../../assets/images/grandmasRecipes.png);
-	background-size: cover; */
 	filter: sepia(100%);
 	border-left: 5px solid #ff9838;
 	border-top: 5px solid #ff9838;
@@ -71,7 +54,6 @@
 
 .projects-featured-article-img:hover {
 	filter: sepia(0);
-	/* z-index: 1; */
 	transform: translate(-2px);
 	transition: 0.5s;
 }
@@ -81,9 +63,6 @@
 	display: flex;
 	flex-direction: column;
 	gap: 5px;
-	/* position: absolute; */
-	/* left: 50vw; */
-	/* transform: translate(5%); */
 }
 
 .projects-featured-project-paragraph {
@@ -109,12 +88,9 @@
 .projects-featured-description-container ul {
 	display: flex;
 	justify-content: center;
-	/* color: #54ff59; */
 }
 
 .technologies-list li {
-	/* border: 5px groove #101010; */
-	/* background-color: #c0c0c0; */
 	padding: 5px;
 	border-radius: 1x;
 	color: #fcf8cc97;

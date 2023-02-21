@@ -1,7 +1,6 @@
 .contact-container {
 	color: #fcf8cc;
 	background-color: #392a0556;
-	/* width: 80vw; */
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
@@ -11,7 +10,6 @@
 	width: 40vw;
 	padding: 15vh 5vh;
 	border-radius: 8px;
-	/* flex-wrap: wrap; */
 }
 
 h2 {

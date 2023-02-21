@@ -1,5 +1,4 @@
 import "./Footer.css";
-import Logo from "../logo/Logo";
 import { FaConnectdevelop } from "react-icons/fa";
 
 export default function Footer() {

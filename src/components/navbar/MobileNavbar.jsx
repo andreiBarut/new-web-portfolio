@@ -1,10 +1,8 @@
 import NavLinks from "./NavLinks";
-import { MdMenuOpen, MdTranslate } from "react-icons/md";
+import { MdMenuOpen } from "react-icons/md";
 import { VscCloseAll } from "react-icons/vsc";
 import { useState } from "react";
 import { useEffect } from "react";
-
-// import { useState } from "react";
 
 export default function MobileNavbar() {
 	useEffect(() => {
@@ -12,7 +10,7 @@ export default function MobileNavbar() {
 	});
 	const [hamburgerOpen, setHamburgerOpen] = useState("0");
 	const [skew, setSkew] = useState("skew(0deg)");
-	// // const [translateEcs, setTranslateEcs] = useState("0");
+
 	function toggleHamburger() {
 		if (hamburgerOpen === "100%") {
 			setHamburgerOpen("0");

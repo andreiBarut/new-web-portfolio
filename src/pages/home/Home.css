@@ -1,29 +1,12 @@
 .home-container {
 	height: 101vh;
-	/* width: 50vw; */
-	/* border: 2px solid #ffd705; */
 	padding: 40vh;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	color: #fcf8cc;
-	/* border: 10px solid red; */
-
-	/* background-image: url(../../assets/images/home-bg.png); */
-	/* animation-name: home-glitch; */
-	/* animation-name: home-animation;
-	animation-duration: 60s;
-	animation-direction: alternate-reverse;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear; */
 	background: #170c00;
-	/* background: radial-gradient(
-		circle,
-		rgba(229, 170, 31, 1) 10%,
-		rgba(57, 42, 5, 1) 70%,
-		rgba(23, 12, 0, 1) 100%
-	); */
 }
 
 @keyframes home-animation {
@@ -36,9 +19,7 @@
 }
 
 .home-info-container {
-	/* background-color: #392a059e; */
 	padding: 20px;
-	/* border: 2px solid #fcf8cc; */
 	border-radius: 8px;
 }
 
@@ -72,7 +53,6 @@
 .home-resume-container {
 	border: 1px solid #ff9838;
 	display: flex;
-	/* justify-content: left !important; */
 	width: fit-content;
 	margin: 0 auto;
 	padding: 0.5rem 3rem;
@@ -93,9 +73,6 @@
 	.home-container {
 		padding: 20vh;
 	}
-	.home-info-container {
-		/* margin-top: 200px; */
-	}
 }
 
 @media (max-width: 650px) {
@@ -111,10 +88,8 @@
 }
 
 .line {
-	/* border: 2px solid #ff9838; */
 	height: 250px;
 	width: 0;
-	/* position: absolute; */
 	position: absolute;
 	bottom: 0;
 	left: 100px;
@@ -132,7 +107,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* text-align: center; */
 	background-color: #ff9838;
 }
 
@@ -149,7 +123,6 @@
 	transform: scale(1.3);
 	transition: 0.1s;
 	color: white;
-	/* background-color: #170c00; */
 	text-decoration: overline;
 }
 
@@ -159,7 +132,6 @@
 }
 
 .circle-2 {
-	/* border: 5px solid rgb(229, 170, 31); */
 	height: 40px;
 	width: 40px;
 	border-radius: 8px;
@@ -170,7 +142,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* text-align: center; */
 	background-color: #ff9838;
 }
 
@@ -186,8 +157,6 @@
 .circle-2:hover {
 	transform: scale(1.3);
 	transition: 0.1s;
-	/* color: white; */
-	/* background-color: rgb(229, 170, 31); */
 	text-decoration: overline;
 }
 
