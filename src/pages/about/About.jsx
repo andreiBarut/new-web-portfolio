@@ -46,17 +46,21 @@ export default function About() {
 
 								<li>CSS</li>
 
-								<li>JavaScript</li>
+								<li>JavaScript ES6</li>
 
 								<li>React.js</li>
 
 								<li>Bootstrap</li>
+
+								<li>Tailwind CSS</li>
 
 								<li>SCSS</li>
 
 								<li>Git</li>
 
 								<li>Figma</li>
+
+								<li>SQL</li>
 							</ul>
 						</article>
 					</Fade>
