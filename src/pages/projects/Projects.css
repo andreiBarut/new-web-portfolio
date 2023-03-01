@@ -90,6 +90,11 @@
 	justify-content: center;
 }
 
+.technologies-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .technologies-list li {
 	padding: 5px;
 	border-radius: 1x;

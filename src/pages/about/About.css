@@ -40,12 +40,13 @@
 
 .about-container .about-portrait {
 	width: 15vw;
-	border-radius: 8px;
+	border-radius: 10px;
 	cursor: pointer;
-	outline: 1.5px solid #ff9838;
+	border-bottom: 5px solid #ff9838;
 	margin-top: 10vh;
-	filter: grayscale(30%);
+	filter: sepia(100%);
 	transition: 0.3s;
+	/* box-shadow: 10px 10px #ff9838; */
 }
 
 @media (max-width: 990px) {
@@ -70,9 +71,11 @@
 }
 
 .about-container .about-portrait:hover {
-	transition: 0.1s;
-	filter: grayscale(0);
-	outline-offset: 10px;
+	transition: all 0.5s ease-out;
+	filter: sepia(0);
+	transform: translateY(-2%);
+	/* border-top: 10px solid #ff9838; */
+	border-bottom: 10px solid #ff9838;
 }
 
 .about-container .about-skills-list {

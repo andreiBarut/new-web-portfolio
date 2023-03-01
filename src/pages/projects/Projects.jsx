@@ -23,7 +23,7 @@ export default function Projects() {
 						<div
 							className="projects-featured-description-container"
 							style={{
-								transform: `translate(${project.translate}15%)`,
+								transform: `translate(${project.translate}0%)`,
 								textAlign: `${project.align}`,
 							}}
 						>
@@ -34,7 +34,7 @@ export default function Projects() {
 							<p className="projects-featured-project-description-paragraph">
 								{project.description}
 							</p>
-							<ul className="technologies-list">
+							<ul className="technologies-list" style={{}}>
 								{project.technologies.map((technology) => (
 									<li>{technology}</li>
 								))}

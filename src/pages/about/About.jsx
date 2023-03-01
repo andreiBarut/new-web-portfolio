@@ -1,5 +1,5 @@
 import "./About.css";
-import portrait from "../../assets/images/portrait.jpeg";
+import portrait from "../../assets/images/portrait-2.png";
 import { Fade } from "react-awesome-reveal";
 
 export default function About() {

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./Home.css";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+import { BiDownArrow } from "react-icons/bi";
 import { Fade } from "react-awesome-reveal";
 
 export default function Home() {
@@ -53,6 +54,11 @@ export default function Home() {
 									<AiFillGithub />
 								</a>
 							</div>
+						</div>
+						<div className="home-downArrow">
+							<a href="#about">
+								<BiDownArrow />
+							</a>
 						</div>
 					</div>
 				</section>

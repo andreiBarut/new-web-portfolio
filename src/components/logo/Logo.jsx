@@ -12,7 +12,9 @@ export default function Logo() {
 	}, 1000);
 	return (
 		<div className="Navbar-Logo">
-			aeb:~$<span className={className}>_</span>
+			<a href="#home" style={{ color: "#ff9838", textDecoration: "none" }}>
+				aeb:~$<span className={className}>_</span>
+			</a>
 		</div>
 	);
 }
