@@ -2,9 +2,9 @@
 	"projects": [
 		{
 			"id": 0,
-			"title": "VOTE VTO [Work in Progress]",
+			"title": "VOTE VTO",
 			"image": "voteVTO.png",
-			"description": "CRUD application made for AMVVD Salaj, the local county veteran's association, where I am a volunteer. The app has user registration, log in, create poll and poll dashboard functionalities. My current role at the association is software developer, translator and interpreter. The app is to be used for the creation of custom polls, which will help the association make easier decisions regarding different situation. The app is devloped using firebase, React, it implements dynamic routing using react router dom, pure css for styling, firestore as database, and firebase auth for authentification",
+			"description": "CRUD application built using React and Firebase, offering features such as registration, login, poll creation, and a poll dashboard. It incorporates functional programming principles and utilizes the dynamic routing capabilities of React Router DOM; currently used by AMVVD to make decisions regarding important events.",
 			"technologies": [
 				"React",
 				"HTML",
